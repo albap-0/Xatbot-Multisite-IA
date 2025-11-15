@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Test Login TFG</title>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+  </head>
+  <body>
+    <h1>Prueba Iniciar sesión resp, user final, etc</h1>
+
+    <div id="g_id_onload"
+        data-client_id="121116921425-rgic30mivn8l1citge911eojgac20vkj.apps.googleusercontent.com"
+        data-context="signin"
+        data-ux_mode="popup"
+        data-callback="handleCredentialResponse"
+        data-auto_prompt="false">
+    </div>
+
+    <div class="g_id_signin" data-type="standard"></div>
+
+    <script>
+      function handleCredentialResponse(response) {
+        console.log("Token de Google recibido!");
+        // Este es el token que usamos para Postman
+        console.log(response.credential);
+        document.body.append("Tu id_token de Google es: " + response.credential);
+      }
+    </script>
+  </body>
+</html>
