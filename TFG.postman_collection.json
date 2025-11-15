@@ -1,0 +1,476 @@
+{
+	"info": {
+		"_postman_id": "5d1b0a11-9434-47f8-8bbc-04ed7261dac7",
+		"name": "TFG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49301564"
+	},
+	"item": [
+		{
+			"name": "VerListaChatbots",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/chatbots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"chatbots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearChatbotVacío",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cache-Control",
+						"value": "no-cache",
+						"name": "cache-control",
+						"type": "text"
+					},
+					{
+						"key": "Postman-Token",
+						"value": "<calculated when request is sent>",
+						"name": "postman-token",
+						"type": "text"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0",
+						"name": "content-length",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": "<calculated when request is sent>",
+						"name": "host",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "PostmanRuntime/7.39.1",
+						"name": "user-agent",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"name": "accept",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"name": "accept-encoding",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"name": "connection",
+						"type": "text"
+					},
+					{
+						"key": "x-admin-token",
+						"value": "AD",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/chatbots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"chatbots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminarChatbotPorID",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Cache-Control",
+						"value": "no-cache",
+						"name": "cache-control",
+						"type": "text"
+					},
+					{
+						"key": "Postman-Token",
+						"value": "<calculated when request is sent>",
+						"name": "postman-token",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": "<calculated when request is sent>",
+						"name": "host",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "PostmanRuntime/7.39.1",
+						"name": "user-agent",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"name": "accept",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"name": "accept-encoding",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"name": "connection",
+						"type": "text"
+					},
+					{
+						"key": "x-admin-token",
+						"value": "AD",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/chatbots/f5afb3e5-9bdc-4b2f-9a1e-ed4b133382bd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"chatbots",
+						"f5afb3e5-9bdc-4b2f-9a1e-ed4b133382bd"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearAccesoResp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cache-Control",
+						"value": "no-cache",
+						"name": "cache-control",
+						"type": "text"
+					},
+					{
+						"key": "Postman-Token",
+						"value": "<calculated when request is sent>",
+						"name": "postman-token",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"name": "content-type",
+						"type": "text"
+					},
+					{
+						"key": "Content-Length",
+						"value": "<calculated when request is sent>",
+						"name": "content-length",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": "<calculated when request is sent>",
+						"name": "host",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "PostmanRuntime/7.39.1",
+						"name": "user-agent",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"name": "accept",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"name": "accept-encoding",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"name": "connection",
+						"type": "text"
+					},
+					{
+						"key": "x-admin-token",
+						"value": "AD",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"aapp@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/responsibles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"responsibles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VerListaResponsables",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-admin-token",
+						"value": "AD",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/responsibles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"responsibles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminarAccesoResp",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-admin-token",
+						"value": "AD",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/responsibles/84a0df0e-9382-49f8-9975-83d1425d6933",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"responsibles",
+						"84a0df0e-9382-49f8-9975-83d1425d6933"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AsignarChatbotAResponsable",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-admin-token",
+						"value": "AD",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"chatbotId\": \"7bfcb249-ffdb-49a0-805f-2f4dba2942ba\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/responsibles/39a87b0c-d660-4744-956d-72c61d302ff8/assign-chatbot",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"responsibles",
+						"39a87b0c-d660-4744-956d-72c61d302ff8",
+						"assign-chatbot"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DesasignarChatbotAResponsable",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-admin-token",
+						"value": "AD",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/responsibles/unassign-chatbot/ff1a1984-4636-42d9-8aab-f944fe9abbc7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"responsibles",
+						"unassign-chatbot",
+						"ff1a1984-4636-42d9-8aab-f944fe9abbc7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoginResponsibleToken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_token\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImI1ZTQ0MGFlOTQxZTk5ODFlZTJmYTEzNzZkNDJjNDZkNzMxZGVlM2YiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMjExMTY5MjE0MjUtcmdpYzMwbWl2bjhsMWNpdGdlOTExZW9qZ2FjMjB2a2ouYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMjExMTY5MjE0MjUtcmdpYzMwbWl2bjhsMWNpdGdlOTExZW9qZ2FjMjB2a2ouYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUwNzkyMDg4MjEwNjQyNTQwODgiLCJlbWFpbCI6ImFsYmFwb250ZXNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc2MjUxMDc1NSwibmFtZSI6IkFsYmEgUG9udGVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0xkZFdKcGZvZU45dE5tVmZlQlQ0eG4xQ3l3dTItSWNfa1dWZzkwbnpoQzdZXzVxRzZRN3c9czk2LWMiLCJnaXZlbl9uYW1lIjoiQWxiYSIsImZhbWlseV9uYW1lIjoiUG9udGVzIiwiaWF0IjoxNzYyNTExMDU1LCJleHAiOjE3NjI1MTQ2NTUsImp0aSI6ImYzMDRhZWMwOWIyODhhY2FmNjA3ZGY0MTZjMzY2MjQzY2RhNGVhOWMifQ.EaQdEvxkJ1dqGNpNASFC-RG0z9F9uslpj6BfsnLd9F2DTPv9uqxenbRDsrCzeGLLhaiwNMVZEkYBTGbaqs-HD9sAmv1I0g7QE_5Uka3kaQQrhUzf2rRns6s8nsYULqNfSX2VElDKEnlZGmitN4D3KDfrRbHbOJ8jfK7oNWFpdIsALfEkG0ktjSnmI08YXSugtGYJi3U7lS2yrsmx_2Dihit3oZWmfcVQEkMhpzQjBmUyqRpqvJOMNw6WOy5blC8mcFO_KdGX-ZQ2_SZuhhYdjH5HhBzBVwcXIMRF744dsZCsDXMlGQg0uj02aJ8sHzJG2jXes5EB3zwt2QqwDM0kzA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/login-responsible",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"login-responsible"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VerChatbotsResponsable",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM5YTg3YjBjLWQ2NjAtNDc0NC05NTZkLTcyYzYxZDMwMmZmOCIsImVtYWlsIjoiYWxiYXBvbnRlc0BnbWFpbC5jb20iLCJuYW1lIjoiQWxiYSBQb250ZXMiLCJpYXQiOjE3NjI1MTEyMjAsImV4cCI6MTc2MjU0MDAyMH0.JHiNHxu6iJx2EI8u8UH_ty394ig-5ZKA6CBLSeP6I4s",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/responsibles/my-chatbots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"responsibles",
+						"my-chatbots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login-RegisterFinalUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_token\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImI1ZTQ0MGFlOTQxZTk5ODFlZTJmYTEzNzZkNDJjNDZkNzMxZGVlM2YiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMjExMTY5MjE0MjUtcmdpYzMwbWl2bjhsMWNpdGdlOTExZW9qZ2FjMjB2a2ouYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMjExMTY5MjE0MjUtcmdpYzMwbWl2bjhsMWNpdGdlOTExZW9qZ2FjMjB2a2ouYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUwNzkyMDg4MjEwNjQyNTQwODgiLCJlbWFpbCI6ImFsYmFwb250ZXNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc2MjYxMDczMywibmFtZSI6IkFsYmEgUG9udGVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0xkZFdKcGZvZU45dE5tVmZlQlQ0eG4xQ3l3dTItSWNfa1dWZzkwbnpoQzdZXzVxRzZRN3c9czk2LWMiLCJnaXZlbl9uYW1lIjoiQWxiYSIsImZhbWlseV9uYW1lIjoiUG9udGVzIiwiaWF0IjoxNzYyNjExMDMzLCJleHAiOjE3NjI2MTQ2MzMsImp0aSI6Ijc1ZGUxMjc0ZWM0MzgyMzgwMThmZTYzN2IzMDA1ZmRiNmJkN2MyOWUifQ.RsxZywr6eBKBLF-sjCkMlRQ0uJzfLep4N_UKnZkW0FbDQfEu4nzmdydhgvXTcChlQVRG64099s-af8pPDhpGOPHlHLHSwT4vdzaRcE8VJZP1dtRD3aIm_3XQhC80kkiR10u3VltaxNZVUWG-1WScryZTKjAFHcm2A9IQQeulYyXqud__nVrG7ZVvNkR2r0_iqyCnl-c0bDTg0o9alB2fDPik0SafmpmEuhziPB4dtYvfO3XQldeTRoZiicZlsFutxtTnOxUynRx1aoL22aL7b8ntd4CMLkFEoMOI3tXIXHGZLeFKbM8qqs5qLVlO9lglVrQ0kQuAuM1Zo4e1DuKk_g\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/login-final-user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"login-final-user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
