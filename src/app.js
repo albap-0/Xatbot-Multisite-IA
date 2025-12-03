@@ -2,6 +2,7 @@ require("dotenv").config() //carga variables entorno .env
 const express = require("express") //crear webserver
 const Storage = require("./storage/storage")
 
+require('./config/db') //inicializa conexion base datos
 
 const app = express()
 app.use(express.json()) //para poder leer JSON 
