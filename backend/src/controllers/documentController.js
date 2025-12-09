@@ -184,6 +184,16 @@ class DocumentController {
         if (file && fs.existsSync(file.path)) fs.unlinkSync(file.path)
     }
 
+    //extrae texto de un pdf
+    _parsePDF(filePath) {
+        return new Promise((resolve, reject) => {
+            const pdfParser = new PDFParser(this, 1)
+            pdfParser.on("pdfParser_dataError", errData => reject(new Error(errData.parserError)))
+            pdfParser.on("pdfParser_dataReady", () => resolve(pdfParser.getRawTextContent()))
+            pdfParser.loadPDF(filePath)
+        })
+    }
+
     //comprueba si el usuario es responsable del chatbot
     async _checkOwnership(chatbotId, userId) {
         try {
