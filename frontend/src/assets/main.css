@@ -1,0 +1,20 @@
+@import './base.css';
+
+/* 1. Reseteamos el contenedor principal de la App */
+#app {
+  max-width: 100%; /* Antes era 1280px, ahora ocupará todo */
+  margin: 0;
+  padding: 0;      /* Quitamos el padding de 2rem */
+  width: 100%;
+  font-weight: normal;
+  display: block;  /* Aseguramos que no sea grid ni flex */
+}
+
+/* 2. Aseguramos que los enlaces no tengan estilos extraños globales */
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+/* IMPORTANTE: Hemos eliminado las @media queries del final 
+   que ponían el body en flex y el #app en grid */

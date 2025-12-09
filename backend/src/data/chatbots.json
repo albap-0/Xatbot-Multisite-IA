@@ -1,0 +1,63 @@
+[
+  {
+    "id": "058ae71a-e828-4dca-a74d-fa94b52447ea",
+    "createdAt": "15/10/2025, 19:20:42",
+    "owner": null
+  },
+  {
+    "id": "5f432106-667e-4a6a-befd-47d2542162d6",
+    "createdAt": "15/10/2025, 21:43:44",
+    "owner": null
+  },
+  {
+    "id": "6eb8aef5-dea7-4fbd-ac86-95ac57deac34",
+    "createdAt": "29/10/2025, 11:45:17",
+    "owner": null
+  },
+  {
+    "id": "ff1a1984-4636-42d9-8aab-f944fe9abbc7",
+    "createdAt": "29/10/2025, 14:01:22",
+    "owner": null
+  },
+  {
+    "id": "1f5afad1-a18b-43de-9edb-4fe8e30ef01c",
+    "createdAt": "29/10/2025, 14:45:13",
+    "owner": "4033e2cb-d527-4ea3-9970-f0dd5031af73"
+  },
+  {
+    "id": "5508c52f-27b3-4642-8a72-950af34a7d7b",
+    "createdAt": "5/11/2025, 13:00:35",
+    "owner": "3d69ecda-f685-46d6-823f-20b15b91f45b"
+  },
+  {
+    "id": "c4320065-0832-4655-b5d4-0e327071fbdc",
+    "createdAt": "5/11/2025, 17:05:26",
+    "owner": "39a87b0c-d660-4744-956d-72c61d302ff8",
+    "name": "Chatbot Prueba 1",
+    "website": "https://PRUEBA3.com"
+  },
+  {
+    "id": "7bfcb249-ffdb-49a0-805f-2f4dba2942ba",
+    "createdAt": "5/11/2025, 17:06:09",
+    "owner": "39a87b0c-d660-4744-956d-72c61d302ff8",
+    "name": "Asistente AWS",
+    "website": "http://localhost:5173"
+  },
+  {
+    "id": "4cae22ea-99e6-4191-b8d1-d1b3a3fad6bd",
+    "createdAt": "15/11/2025, 17:24:35",
+    "owner": null,
+    "name": "Asistente de AWS",
+    "website": "https://APdom.com"
+  },
+  {
+    "id": "95e9b194-f4e6-4fb8-acc2-6898d94d2b61",
+    "createdAt": "7/12/2025, 18:26:58",
+    "owner": "39a87b0c-d660-4744-956d-72c61d302ff8"
+  },
+  {
+    "id": "9f6a0922-57ae-41ce-ba07-c9ff71146a9e",
+    "createdAt": "7/12/2025, 18:31:01",
+    "owner": null
+  }
+]
