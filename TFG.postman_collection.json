@@ -83,7 +83,7 @@
 					},
 					{
 						"key": "x-admin-token",
-						"value": "AlbitaDinamita",
+						"value": "AA",
 						"type": "text"
 					}
 				],
@@ -150,7 +150,7 @@
 					},
 					{
 						"key": "x-admin-token",
-						"value": "AlbitaDinamita",
+						"value": "AA",
 						"type": "text"
 					}
 				],
@@ -237,7 +237,7 @@
 					},
 					{
 						"key": "x-admin-token",
-						"value": "AlbitaDinamita",
+						"value": "AA",
 						"type": "text"
 					}
 				],
@@ -274,7 +274,7 @@
 				"header": [
 					{
 						"key": "x-admin-token",
-						"value": "AlbitaDinamita",
+						"value": "AA",
 						"type": "text"
 					}
 				],
@@ -302,7 +302,7 @@
 				"header": [
 					{
 						"key": "x-admin-token",
-						"value": "AlbitaDinamita",
+						"value": "AA",
 						"type": "text"
 					}
 				],
@@ -328,7 +328,7 @@
 				"header": [
 					{
 						"key": "x-admin-token",
-						"value": "AlbitaDinamita",
+						"value": "AA",
 						"type": "text"
 					}
 				],
@@ -364,7 +364,7 @@
 				"header": [
 					{
 						"key": "x-admin-token",
-						"value": "AlbitaDinamita",
+						"value": "AA",
 						"type": "text"
 					}
 				],
@@ -683,7 +683,7 @@
 					},
 					{
 						"key": "x-admin-token",
-						"value": "AlbitaDinamita",
+						"value": "AA",
 						"type": "text",
 						"disabled": true
 					}
