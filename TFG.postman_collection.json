@@ -83,7 +83,7 @@
 					},
 					{
 						"key": "x-admin-token",
-						"value": "AD",
+						"value": "AlbitaDinamita",
 						"type": "text"
 					}
 				],
@@ -150,7 +150,7 @@
 					},
 					{
 						"key": "x-admin-token",
-						"value": "AD",
+						"value": "AlbitaDinamita",
 						"type": "text"
 					}
 				],
@@ -237,13 +237,13 @@
 					},
 					{
 						"key": "x-admin-token",
-						"value": "AD",
+						"value": "AlbitaDinamita",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"aapp@gmail.com\"\r\n}",
+					"raw": "{\r\n    \"email\": \"albapontes@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -274,7 +274,7 @@
 				"header": [
 					{
 						"key": "x-admin-token",
-						"value": "AD",
+						"value": "AlbitaDinamita",
 						"type": "text"
 					}
 				],
@@ -302,7 +302,7 @@
 				"header": [
 					{
 						"key": "x-admin-token",
-						"value": "AD",
+						"value": "AlbitaDinamita",
 						"type": "text"
 					}
 				],
@@ -328,7 +328,7 @@
 				"header": [
 					{
 						"key": "x-admin-token",
-						"value": "AD",
+						"value": "AlbitaDinamita",
 						"type": "text"
 					}
 				],
@@ -364,7 +364,7 @@
 				"header": [
 					{
 						"key": "x-admin-token",
-						"value": "AD",
+						"value": "AlbitaDinamita",
 						"type": "text"
 					}
 				],
@@ -391,7 +391,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id_token\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImI1ZTQ0MGFlOTQxZTk5ODFlZTJmYTEzNzZkNDJjNDZkNzMxZGVlM2YiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMjExMTY5MjE0MjUtcmdpYzMwbWl2bjhsMWNpdGdlOTExZW9qZ2FjMjB2a2ouYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMjExMTY5MjE0MjUtcmdpYzMwbWl2bjhsMWNpdGdlOTExZW9qZ2FjMjB2a2ouYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUwNzkyMDg4MjEwNjQyNTQwODgiLCJlbWFpbCI6ImFsYmFwb250ZXNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc2MjUxMDc1NSwibmFtZSI6IkFsYmEgUG9udGVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0xkZFdKcGZvZU45dE5tVmZlQlQ0eG4xQ3l3dTItSWNfa1dWZzkwbnpoQzdZXzVxRzZRN3c9czk2LWMiLCJnaXZlbl9uYW1lIjoiQWxiYSIsImZhbWlseV9uYW1lIjoiUG9udGVzIiwiaWF0IjoxNzYyNTExMDU1LCJleHAiOjE3NjI1MTQ2NTUsImp0aSI6ImYzMDRhZWMwOWIyODhhY2FmNjA3ZGY0MTZjMzY2MjQzY2RhNGVhOWMifQ.EaQdEvxkJ1dqGNpNASFC-RG0z9F9uslpj6BfsnLd9F2DTPv9uqxenbRDsrCzeGLLhaiwNMVZEkYBTGbaqs-HD9sAmv1I0g7QE_5Uka3kaQQrhUzf2rRns6s8nsYULqNfSX2VElDKEnlZGmitN4D3KDfrRbHbOJ8jfK7oNWFpdIsALfEkG0ktjSnmI08YXSugtGYJi3U7lS2yrsmx_2Dihit3oZWmfcVQEkMhpzQjBmUyqRpqvJOMNw6WOy5blC8mcFO_KdGX-ZQ2_SZuhhYdjH5HhBzBVwcXIMRF744dsZCsDXMlGQg0uj02aJ8sHzJG2jXes5EB3zwt2QqwDM0kzA\"\r\n}",
+					"raw": "{\r\n    \"id_token\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ1NDNlMjFhMDI3M2VmYzY2YTQ3NTAwMDI0NDFjYjIxNTFjYjIzNWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMjExMTY5MjE0MjUtcmdpYzMwbWl2bjhsMWNpdGdlOTExZW9qZ2FjMjB2a2ouYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMjExMTY5MjE0MjUtcmdpYzMwbWl2bjhsMWNpdGdlOTExZW9qZ2FjMjB2a2ouYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUwNzkyMDg4MjEwNjQyNTQwODgiLCJlbWFpbCI6ImFsYmFwb250ZXNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc2NTMwMDExNSwibmFtZSI6IkFsYmEgUG9udGVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0xkZFdKcGZvZU45dE5tVmZlQlQ0eG4xQ3l3dTItSWNfa1dWZzkwbnpoQzdZXzVxRzZRN3c9czk2LWMiLCJnaXZlbl9uYW1lIjoiQWxiYSIsImZhbWlseV9uYW1lIjoiUG9udGVzIiwiaWF0IjoxNzY1MzAwNDE1LCJleHAiOjE3NjUzMDQwMTUsImp0aSI6ImFiOGI5ZWEwNjZjZDNlM2JiZWIyNjBhNDRjN2NiZDJjMDQ5Yzg5ZmEifQ.BRUCLSfetls-1AkSjsz7OSf9k6EibJqJtwqeyk-2lpK8xIcAZn3RoZlbgrt1iBIEMdVMMx1uAgv40A-AxVO7I5SL8WCtBD6F2LN7mBsMMiOKNUW5HcoQJgvr00Zz5EFwp_O_sJ1j7qYx94G4Z7vxZNNWGUGlTsnnzNm3FNukhi-27mNHLLfIvuxqv99J_XhBF7yM1vY8ujn7oKOL-cdGKdd_NWzOqf5_mHmRjdBfi_0xjzU7RLC-J0mt34S-MmUiCEvR0w82NK8Z_MicBN2OtcWJFwkUh27h0wz_U62ldbGBhe9Dm_6onXTuLeBYyOSuFCUFT_z5QUgIgdJd7yXB_w\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -467,6 +467,253 @@
 					"path": [
 						"auth",
 						"login-final-user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SubirDocRespAChatbot",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM5YTg3YjBjLWQ2NjAtNDc0NC05NTZkLTcyYzYxZDMwMmZmOCIsImVtYWlsIjoiYWxiYXBvbnRlc0BnbWFpbC5jb20iLCJuYW1lIjoiQWxiYSBQb250ZXMiLCJyb2xlIjoicmVzcG9uc2libGUiLCJpYXQiOjE3NjUxMjY4MzIsImV4cCI6MTc2NTE1NTYzMn0.L6NwcSObB2egV6N6UmbIAwl7ZbrgofCMJPIDZHgwi_c",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "c:\\Users\\albap\\Downloads\\Sistemes Distribuïts\\Activitats Optatives\\ACTIVIDAD OPCIONAL 2_ 1634512.pdf",
+							"disabled": true
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "c:\\Users\\albap\\Downloads\\Gestió de Projectes i Legislació\\1634512_Pontes_Alba.pdf",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/documents/7bfcb249-ffdb-49a0-805f-2f4dba2942ba/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"documents",
+						"7bfcb249-ffdb-49a0-805f-2f4dba2942ba",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VerDocsChatbot",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM5YTg3YjBjLWQ2NjAtNDc0NC05NTZkLTcyYzYxZDMwMmZmOCIsImVtYWlsIjoiYWxiYXBvbnRlc0BnbWFpbC5jb20iLCJuYW1lIjoiQWxiYSBQb250ZXMiLCJyb2xlIjoicmVzcG9uc2libGUiLCJpYXQiOjE3NjQ4MDI0NzUsImV4cCI6MTc2NDgzMTI3NX0.FvKspfDVn_Udfco0UVaWpq6jXg0HUt_BKEp-Etn0f7Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/documents/c4320065-0832-4655-b5d4-0e327071fbdc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"documents",
+						"c4320065-0832-4655-b5d4-0e327071fbdc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminarDocChatbot",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"documentName\": \"ACTIVIDAD OPCIONAL 2_ 1634512.pdf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/documents/c4320065-0832-4655-b5d4-0e327071fbdc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"documents",
+						"c4320065-0832-4655-b5d4-0e327071fbdc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IntegracionIAConsultaManual",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\": \"¿Una VPC puede ampliarse a diferentes regiones?\" \r\n    //\"question\": \"¿Cuando sale la temporada 5 de Stranger Things?\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/chat/7bfcb249-ffdb-49a0-805f-2f4dba2942ba",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"chat",
+						"7bfcb249-ffdb-49a0-805f-2f4dba2942ba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AsignarChatbotAWeb",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM5YTg3YjBjLWQ2NjAtNDc0NC05NTZkLTcyYzYxZDMwMmZmOCIsImVtYWlsIjoiYWxiYXBvbnRlc0BnbWFpbC5jb20iLCJuYW1lIjoiQWxiYSBQb250ZXMiLCJyb2xlIjoicmVzcG9uc2libGUiLCJpYXQiOjE3NjUzMDMyNTQsImV4cCI6MTc2NTMzMjA1NH0.yCmbMQRrjSq2dJrfFtqUUZVT_ZJfXuyYKQyf3D0o1mo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Cache-Control",
+						"value": "no-cache",
+						"name": "cache-control",
+						"type": "text"
+					},
+					{
+						"key": "Postman-Token",
+						"value": "<calculated when request is sent>",
+						"name": "postman-token",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"name": "content-type",
+						"type": "text"
+					},
+					{
+						"key": "Content-Length",
+						"value": "<calculated when request is sent>",
+						"name": "content-length",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": "<calculated when request is sent>",
+						"name": "host",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "PostmanRuntime/7.39.1",
+						"name": "user-agent",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"name": "accept",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"name": "accept-encoding",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"name": "connection",
+						"type": "text"
+					},
+					{
+						"key": "x-admin-token",
+						"value": "AlbitaDinamita",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"website\": \"https://inventada.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/chatbots/c4320065-0832-4655-b5d4-0e327071fbdc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"chatbots",
+						"c4320065-0832-4655-b5d4-0e327071fbdc"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
 					]
 				}
 			},
